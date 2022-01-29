@@ -6,6 +6,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.integer :likes
       t.integer :comments
       t.string :shortcode
+      t.string :ig
 
       t.timestamps
     end
